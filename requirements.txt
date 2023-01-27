@@ -1,7 +1,17 @@
 click==7.1.2
 Flask==1.1.2
+Flask-Cors==3.0.10
 gunicorn==20.0.4
 itsdangerous==1.1.0
 Jinja2==2.11.3
+joblib==1.2.0
 MarkupSafe==1.1.1
+numpy==1.24.1
+pandas==1.5.3
+python-dateutil==2.8.2
+pytz==2022.7.1
+scikit-learn==1.2.1
+scipy==1.10.0
+six==1.16.0
+threadpoolctl==3.1.0
 Werkzeug==1.0.1
