@@ -1,0 +1,31 @@
+jQuery is a lightweight Javascript library which is blazing fast and concise. 
+This library was created by John Resig in 2006 and
+
+jQuery has been designed to simplify HTML DOM tree traversal and manipulation, 
+as well as event handling, CSS animation, and Ajax.
+
+jQuery can be used to find a particular HTML element in the HTML document with a certain ID,
+class or attribute and later we can use jQuery to change one or more of attributes of the same element like color,
+visibility etc. jQuery can also be used to make a webpage interactive by responding to an event like a mouse click.
+jquery features 
+
+first program with setup 
+
+jquery selectors
+HTML element Name
+
+Element ID
+
+Element Class
+
+Element attribute name
+
+Element attribute value
+
+
+Mouse Events 	        Keyboard Events 	Form Events 	Document Events
+click 	                keypress 	        submit 	        load
+dblclick 	            keydown 	        change 	        resize
+hover 	                keyup 	            select 	        scroll
+mousedown 		        blur 	            unload
+mouseup 		        focusin 	        ready

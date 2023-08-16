@@ -1,0 +1,30 @@
+
+    Introduction to JavaScript
+    Applying JavaScript (internal and external)
+    Understanding JS Syntax
+    Introduction to Document and Window Object
+    Variables and Operators
+    Data Types and Num Type Conversion
+    Math and String Manipulation
+    Objects and Arrays
+    Date and Time
+    Conditional Statements
+    Switch Case 
+    Looping in JS
+    Functions
+
+1.jQuery Introduction
+2.Selectors
+3.Style Class Manipulation
+4.DOM Manipulation
+5.Events
+6.Utility Functions
+7.Ajax
+9.Animations and Effects with jQuery and jQuery UI
+10.Parsing JSON
+11.Plugins
+
+
+
+
+ 

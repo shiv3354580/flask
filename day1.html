@@ -1,0 +1,124 @@
+<html>
+   <head>
+      <title>The jQuery Example</title>
+      <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+      <script type = "text/javascript">
+         $(document).ready(function() {
+            $("h1").html("Hello, World!");
+            $("p").hide()
+            jQuery("p").hide()
+            $("h1").css("color", "red")
+            $(".red").css("color", "red")
+            $("#foo").css("background-color", "yellow");
+            alert($(this).text());
+            // jqueyr get content
+            $(selector).html();
+
+            $(selector).text();
+            $("#b1").click(function(){
+         $("p").replaceWith("<h1>This is new heading</h1>");
+      });
+      $("#b2").click(function(){
+         $("h1").replaceWith("<h2>This is another heading</h2>");
+      });
+
+
+      $( ".inner" ).append( "<p>Zara</p>" );
+      $("<p>Zara</p>").appendTo(".inner");
+      $("<p>Zara</p>").insertAfter(".inner");
+      $( ".inner" ).prepend( "<p>Zara</p>" );
+      $("<p>Zara</p>").prependTo(".inner");
+      $( ".hello" ).remove();
+      $("div").remove(".hello");
+      $( ".hello" ).empty();
+      $( ".hello" ).replaceWith("<h2>New Element</h2>" );
+         });
+         $("#b2").click(function(){
+         $("div").width("400px");
+      });
+      </script>
+      <!-- css selectors -->
+      <script>
+        $(document).ready(function() {
+           $("button").click(function(){
+              $( ".hello" ).addClass("big" );
+              $( ".goodbye" ).addClass("small" );
+           });
+        });
+
+        $(document).ready(function() {
+      $("#show").click(function(){
+         $("#box").fadeIn(1000);
+      });
+      $("#hide").click(function(){
+         $("#box").fadeOut(1000);
+      });
+
+      $("#show").click(function(){
+         $("#box").slideDown(1000);
+      });
+      $("#hide").click(function(){
+         $("#box").slideUp(1000);
+      });
+
+
+      $("#right").click(function(){
+      $("div").animate({left: '250px'});
+   });
+   $("#left").click(function(){
+      $("div").animate({left: '0px'});
+   });
+
+
+   $("#right").click(function(){
+      $("div").animate({left: '250px'}, 1000);
+   });
+   $("#left").click(function(){
+      $("div").animate({left: '0px'}, 5000);
+   });
+
+   $("button").click(function(){
+      $("div").animate({left: '250px'});
+      $("div").animate({top: '100px'});
+      $("div").animate({left: '0px'});
+      $("div").animate({top: '0px'});
+   });
+
+   $("button").click(function(){
+         $("p").css("color", "#fb7c7c").fadeOut(1000).fadeIn(1000);
+      });
+
+
+      $("div").click(function(){
+         $(this).hide(1000);
+         alert("I'm hidden now");
+      });
+   });
+
+
+     </script>
+     <style>
+        .big{ font-weight: bold; font-size:20px; }
+        .small{ font-weight: normal; font-size:10px; }
+     </style>
+      <!-- calling a jquery library function -->
+      <script>
+        $(document).ready(function() {
+           $("div").click(function() {alert("Hello, world!");});
+        
+        });
+        // strings numbers boolean objects same as dictionary arrays
+        // functions context this
+        // syntax of jquery
+        $(document).ready(function(){
+            $(selector).action()
+        });
+
+     </script>
+   </head>
+   
+   <body>
+      <h1>Hello</h1>
+      <div>click</div>
+   </body>
+</html>
